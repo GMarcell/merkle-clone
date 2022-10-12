@@ -27,7 +27,7 @@ const HomeSection: NextComponentType = () => {
           </div>
           <div style={{ display: "flex", justifyContent: "center" }}>
             <div className={styles.media}>
-              <button style={{ borderRadius: "50%", padding: "20px", border: "none", backgroundColor: "#6ec1e4", color: "#e0f3ff" }}>
+              <button style={{ borderRadius: "50%", padding: "20px 25px", border: "none", backgroundColor: "#6ec1e4", color: "#e0f3ff" }}>
                 <FontAwesomeIcon icon={faPlay} />
               </button>
             </div>
