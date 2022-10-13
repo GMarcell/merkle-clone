@@ -1,11 +1,10 @@
-import { faCircle, faRightLong, faPlay } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Clients from '../components/Clients'
 import CoreValue from '../components/CoreValue'
 import HomeSection from '../components/Home'
-import Navbar from '../components/Navbar'
+import Services from '../components/Services'
+import Teams from '../components/Teams'
 import VisiMisi from '../components/VisiMisi'
 import styles from '../styles/Home.module.css'
 
@@ -23,8 +22,8 @@ const Home: NextPage = () => {
         <VisiMisi />
         <CoreValue />
         <Clients />
-        <section id='Services'></section>
-        <section id='Teams'></section>
+        <Services />
+        <Teams />
       </main>
 
       <footer className={styles.footer}>
