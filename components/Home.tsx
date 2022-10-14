@@ -8,8 +8,8 @@ const HomeSection: NextComponentType = () => {
   return (
     <section id='Home' className={styles.Home}>
       <Navbar />
-      <div className='container'>
-        <div className='left'>
+      <div className={styles.homeContainer}>
+        <div className={styles.homeWord}>
           <div style={{ display: "flex", alignItems: "center", marginBottom: "40px" }}>
             <FontAwesomeIcon icon={faCircle} style={{ color: "#6ec1e4", marginRight: "15px" }} />
             <p style={{ margin: "0", fontSize: "14px", letterSpacing: "2px", fontWeight: "bold" }}>ON - DEMAND</p>
@@ -25,12 +25,12 @@ const HomeSection: NextComponentType = () => {
               </button>
             </div>
           </div>
-          <div style={{ display: "flex", justifyContent: "center" }}>
-            <div className={styles.media}>
-              <button style={{ borderRadius: "50%", padding: "20px 25px", border: "none", backgroundColor: "#6ec1e4", color: "#e0f3ff" }}>
-                <FontAwesomeIcon icon={faPlay} />
-              </button>
-            </div>
+        </div>
+        <div className={styles.mediaContainer}>
+          <div className={styles.media}>
+            <button style={{ borderRadius: "50%", padding: "20px 25px", border: "none", backgroundColor: "#6ec1e4", color: "#e0f3ff" }}>
+              <FontAwesomeIcon icon={faPlay} />
+            </button>
           </div>
         </div>
       </div>

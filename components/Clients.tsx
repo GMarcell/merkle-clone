@@ -15,7 +15,7 @@ const Clients: NextComponentType = () => {
     <div className={styles.clients}>
       <h1 style={{ fontSize: "42px", fontWeight: "bold", textAlign: "center", marginBottom: "20px" }}>Our Clients</h1>
       <p style={{ color: "gray", fontSize: "15px", textAlign: "center" }}>Driving technology for leading brands</p>
-      <div className="4-coloumn">
+      <div className={styles.fourColoumn}>
         <div className={styles.clientItem}>
           <Image src={Grab} alt="Grab" />
         </div>
@@ -29,18 +29,19 @@ const Clients: NextComponentType = () => {
           <Image src={Djarum} alt="Grab" />
         </div>
       </div>
-      <div className="4-coloumn"></div>
-      <div className={styles.clientItem}>
-        <Image src={Buma} alt="Grab" />
-      </div>
-      <div className={styles.clientItem}>
-        <Image src={Miens} alt="Grab" />
-      </div>
-      <div className={styles.clientItem}>
-        <Image src={LKPP} alt="Grab" />
-      </div>
-      <div className={styles.clientItem}>
-        <Image src={Hino} alt="Grab" />
+      <div className={styles.fourColoumn}>
+        <div className={styles.clientItem}>
+          <Image src={Buma} alt="Grab" />
+        </div>
+        <div className={styles.clientItem}>
+          <Image src={Miens} alt="Grab" />
+        </div>
+        <div className={styles.clientItem}>
+          <Image src={LKPP} alt="Grab" />
+        </div>
+        <div className={styles.clientItem}>
+          <Image src={Hino} alt="Grab" />
+        </div>
       </div>
     </div>
   )

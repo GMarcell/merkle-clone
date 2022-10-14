@@ -1,10 +1,12 @@
 .footer {
   display: flex;
   flex: 1;
-  padding: 2rem 0;
+  font-size: 15px;
+  padding: 1.5rem 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+  background-color: lightgray;
 }
 
 .Home{
@@ -13,9 +15,13 @@
   padding: 5px;
 }
 
+.mediaContainer{
+  display: flex;
+  justify-content: center;
+}
+
 .media{
-  width: 100%;
-  height: 225px;
+  padding: 80px 140px ;
   border-radius: 15px;
   background-size: cover;
   background-position: center center;
@@ -56,6 +62,10 @@
 }
 
 .coreItem{
+  margin: 10px;
+  padding: 25px;
+}
+.coreItem2{
   margin: 10px;
   padding: 25px;
 }
@@ -120,4 +130,244 @@
 .teams{
   padding: 20px;
   color: #007ff8;
+}
+
+.teamContainer{
+  text-align: center;
+}
+
+.teamName{
+  margin-top:30px;
+  margin-bottom: 50px;
+}
+
+.news{
+  padding: 20px;
+}
+
+.banner{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.banner:hover{
+  background-color: #007ff8;
+}
+
+.bannerGrab{
+  background-image: url('../assets/grabPeople.jfif');
+  opacity: 0.7;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  text-decoration: underline;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  background-size: contain;
+}
+.bannerMoka{
+  background-image: url('../assets/mokaBanner.jpg');
+  opacity: 0.7;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  text-decoration: underline;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  background-size: contain;
+}
+.bannerDjarum{
+  background-image: url('../assets/djarumBanner.jfif');
+  opacity: 0.7;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  text-decoration: underline;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  background-size: cover;
+}
+.bannerIsmaya{
+  background-image: url('../assets/ismayaDWP.png');
+  opacity: 0.7;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  text-decoration: underline;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  background-size: contain;
+}
+
+.visiMisiTitle{
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.visiMisiP{
+  font-size: 13px;
+  color: gray;
+}
+
+.serviceColoumn{
+  margin-bottom: 50px;
+}
+
+.moreTeamTitle{
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.moreTeamWord{
+  font-weight: bolder;
+  color:  #ff866c;
+}
+
+@media only screen and (min-width: 768px) {
+  .Home{
+    padding: 20px
+  }
+  .homeContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 280px 40px 180px 40px;
+  }
+  .homeWord{
+    width: 40%;
+  }
+  .mediaContainer{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  .media{
+    padding: 160px 250px;
+  }
+  .homeButtons{
+    display: flex;
+    align-items: center;
+  }
+  .letsRollButton{
+    width: 30%;
+    margin: 0;
+  }
+  .viewJourneyButton{
+    width: 30%;
+    margin: 0;
+  }
+  .visiMisi{
+    padding: 160px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .visiMisiImageContainer{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+  }
+  .visiMisiWord{
+    width: 40%;
+  }
+  .visiMisiImg{
+    width: 100%;
+  }
+  .visiMisiTitle{
+    font-size: 40px;
+  }
+  .visiMisiP{
+    font-size: 17px;
+  }
+  .coreValue{
+    padding: 30px 170px 50px 170px;
+  }
+  .threeColoumn{
+    display: flex;
+  }
+  .twoColoumn{
+    display: flex;
+  }
+  .clients{
+    padding: 30px 170px 100px 170px;
+  }
+  .fourColoumn{
+    display: flex;
+  }
+  .clientItem{
+    padding: 50px;
+  }
+  .serviceColoumn{
+    display: flex;
+  }
+  .serviceColoumnReverse{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .serviceImgContainer{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .serviceWordContainer{
+    width: 25%;
+    display: flex;
+    align-items: center;
+  }
+  .coreValue{
+    margin-bottom: 50px;
+  }
+  .coreItem{
+    width: 30%;
+  }
+  .coreItem2{
+    width: 50%;
+  }
+  .coreItemTitle{
+    margin: 30px auto;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .allTeamsContainer{
+    display: flex;
+    justify-content: center;
+  }
+  .teamContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto 15px;
+  }
+  .moreTeamTitle{
+    font-size: 70px;
+  }
+  .moreTeamWord{
+    font-size: 20px;
+  }
+  .news{
+    padding: auto 100px;
+  }
+  .bannerContainer{
+    display: flex;
+  }
 }

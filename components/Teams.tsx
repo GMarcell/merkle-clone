@@ -8,21 +8,27 @@ const Teams: NextComponentType = () => {
   return (
     <div className={styles.teams}>
       <h1 style={{ fontWeight: "bold", textAlign: "center", marginBottom: "50px" }}>Our team’s long-running Apps Development Experiences on various Industries</h1>
-      <div>
-        <div>
+      <div className={styles.allTeamsContainer}>
+        <div className={styles.teamContainer}>
           <Image src={wanita} alt="wanita" />
-          <h2>Una Lopez</h2>
-          <p>Chief of Staff</p>
+          <div className={styles.teamName}>
+            <h4 style={{ fontWeight: "bold", fontSize: "20px" }}>Una Lopez</h4>
+            <p style={{ color: "gray", fontSize: "15px" }}>Chief of Staff</p>
+          </div>
         </div>
-        <div>
+        <div className={styles.teamContainer}>
           <Image src={laki} alt="laki" />
-          <h2>Mike Doe</h2>
-          <p>Head of Product</p>
+          <div className={styles.teamName}>
+            <h4 style={{ fontWeight: "bold", fontSize: "20px" }} >Mike Doe</h4>
+            <p style={{ color: "gray", fontSize: "15px" }}>Head of Product</p>
+          </div>
         </div>
-        <div>
-          <h2>25+</h2>
-          <p>Amazing team members</p>
-          <p>Doing amazing job everyday</p>
+        <div className={styles.teamContainer}>
+          <div className={styles.moreTeams}>
+            <h2 className={styles.moreTeamTitle}>25+</h2>
+            <p className={styles.moreTeamWord}>Amazing team members</p>
+            <p className={styles.moreTeamWord}>Doing amazing job everyday</p>
+          </div>
         </div>
       </div>
     </div>

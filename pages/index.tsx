@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Clients from '../components/Clients'
 import CoreValue from '../components/CoreValue'
 import HomeSection from '../components/Home'
+import News from '../components/News'
 import Services from '../components/Services'
 import Teams from '../components/Teams'
 import VisiMisi from '../components/VisiMisi'
@@ -24,6 +25,7 @@ const Home: NextPage = () => {
         <Clients />
         <Services />
         <Teams />
+        <News />
       </main>
 
       <footer className={styles.footer}>
