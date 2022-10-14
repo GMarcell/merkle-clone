@@ -240,8 +240,13 @@
   font-weight: bolder;
   color:  #ff866c;
 }
+.bannerLogo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .Home{
     padding: 20px
   }
@@ -249,7 +254,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 280px 40px 180px 40px;
+    padding: 150px 20px 180px 20px;
   }
   .homeWord{
     width: 40%;
@@ -365,9 +370,25 @@
     font-size: 20px;
   }
   .news{
-    padding: auto 100px;
+    padding:100px 150px 100px 150px;
+  }
+  .bannerContainerReverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
   }
   .bannerContainer{
     display: flex;
+    justify-content: space-around;
+  }
+  .bannerLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+  }
+  .bannerGrab, .bannerMoka, .bannerDjarum, .bannerIsmaya{
+    height: 250px;
+    width: 550px;
   }
 }

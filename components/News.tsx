@@ -11,8 +11,8 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 const News: NextComponentType = () => {
   return (
     <div className={styles.news}>
-      <div className={styles.bannerContainer}>
-        <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+      <div className={styles.bannerContainerReverse}>
+        <div className={styles.bannerLogo}>
           <Image src={Grab} alt="grab" />
         </div>
         <div>
@@ -26,8 +26,8 @@ const News: NextComponentType = () => {
           </div>
         </div>
       </div>
-      <div>
-        <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+      <div className={styles.bannerContainer}>
+        <div className={styles.bannerLogo}>
           <Image src={Moka} alt="grab" />
         </div>
         <div>
@@ -41,8 +41,8 @@ const News: NextComponentType = () => {
           </div>
         </div>
       </div>
-      <div>
-        <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+      <div className={styles.bannerContainerReverse}>
+        <div className={styles.bannerLogo}>
           <Image src={Ismaya} alt="grab" />
         </div>
         <div>
@@ -56,8 +56,8 @@ const News: NextComponentType = () => {
           </div>
         </div>
       </div>
-      <div>
-        <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+      <div className={styles.bannerContainer}>
+        <div className={styles.bannerLogo}>
           <Image src={Djarum} alt="grab" />
         </div>
         <div>
